@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+/* navbar */
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    margin-left: 20px;
+    
+}
+.nav:hover{
+    color: blue;
+}
+/* navbar End*/
+
+/* home */
+
+.container{
+    position: relative;
+    top: 15%;
+    /* left: 5%; */
+    /* font-size: 50px; */
+}
+#home{
+    background: url('images/home.jpg');
+    width: 100%;
+    height: 700px;
+    border: 2px solid gray;
+}
+#home{
+    content: " ";
+    /* background: url('images/home.jpg'); */
+    opacity: 1 ;
+    /* z-index: 1; */
+}
+.btn{
+    position: relative;
+    top: 18%;
+    left: 40%;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px 10px;
+}
+.btn:hover{
+    color: black;
+}
+.text-danger{
+    font-size: 25px;
+}
+/* home End */
+
+
+/* about Section */
+#about{
+    margin: 0px 20px 0px 20px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+
+}
+.img{
+    width: auto;
+    height: 600px;
+}
+.box div{
+    margin: 10%;
+}
+.box{
+    display: flex;
+    word-wrap: break-word;
+    /* border: 2px solid black; */
+    width: 720px;
+    margin: 25px 10px;
+    height: 800px;
+    text-align: center;
+}
+
+/* Gallery Style */
+.span{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 16px;
+}
+
+.gallery-item {
+  /* flex: 1; */
+  max-width: calc(33.333% - 16px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  min-height: 300px;
+  max-height: 500px;
+  display: block;
+}
+.gal{
+  background-color: #ddd;
+ 
+}
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .gallery-item {
+      max-width: calc(50% - 16px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-item {
+      max-width: 100%;
+  }
+}
+
+
+
+/* contact form */
+
+
+.container1 {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+.p{
+    text-shadow: 3px 2px 3px black;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+}
